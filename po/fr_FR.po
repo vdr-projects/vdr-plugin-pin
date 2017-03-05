@@ -1,0 +1,173 @@
+# VDR plugin language source file.
+# Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
+# This file is distributed under the same license as the VDR package.
+# Jean-Claude Repetto <jc@repetto.org>, 2001
+# Olivier Jacques <jacquesolivier@hotmail.com>, 2003
+# Gregoire Favre <greg@magma.unil.ch>, 2003
+# Nicolas Huillard <nhuillard@e-dition.fr>, 2005
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VDR 1.5.7\n"
+"Report-Msgid-Bugs-To: <see README>\n"
+"POT-Creation-Date: 2013-05-22 11:28+0200\n"
+"PO-Revision-Date: 2013-05-22 10:37+0200\n"
+"Last-Translator: Nicolas Huillard <nhuillard@e-dition.fr>\n"
+"Language-Team: <vdr@linuxtv.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Setup"
+msgstr ""
+
+msgid "Add current channel to protection list"
+msgstr "Ajouter la chaîne actuelle à la protection parentale"
+
+msgid "Add current broadcast to protection list"
+msgstr "Ajouter l'émission actuelle dans la liste de protection parentale"
+
+msgid "Edit channel locks"
+msgstr "Editer la liste de chaînes"
+
+msgid "Edit broadcast locks"
+msgstr "Editer les émissions protégés"
+
+msgid "Edit plugin locks"
+msgstr "editer la protection de plugin"
+
+msgid "Edit menu locks"
+msgstr ""
+
+msgid "Unlock setup"
+msgstr ""
+
+msgid "Lock setup"
+msgstr ""
+
+msgid "Activate childlock"
+msgstr "Protection parentales activée"
+
+msgid "Activated pin protection"
+msgstr "Activé la protection parentale"
+
+msgid "Please setup a pin code first!"
+msgstr "Entrer le code de protection d'abord!"
+
+msgid "Protected channels"
+msgstr "Protéger chaîne"
+
+msgid "Protected broadcasts"
+msgstr "Proteger l'émission"
+
+msgid "Plugin protections"
+msgstr "Plugin sous protection"
+
+msgid "Menu protections"
+msgstr "Protégier des menus"
+
+msgid "locked"
+msgstr "protégé"
+
+msgid "unlocked"
+msgstr "libéré"
+
+msgid "already in list"
+msgstr "Toujours dans la liste"
+
+msgid "added to protection list"
+msgstr "ajouter"
+
+msgid "Edit"
+msgstr "Editer"
+
+msgid "On/Off"
+msgstr "Enclencher/déclencher"
+
+msgid "Add"
+msgstr "Ajouter"
+
+msgid "Delete"
+msgstr "Effacer"
+
+msgid "Remove entry?"
+msgstr "Enlever?"
+
+msgid "Name"
+msgstr ""
+
+msgid "Lock active"
+msgstr "Protection active"
+
+msgid "Keyword"
+msgstr "Expression de recherche"
+
+msgid "Search mode"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "Setup your pin code: "
+msgstr "Introduisez le code d'accès:"
+
+msgid "Pin Code: "
+msgstr "Le code pin"
+
+msgid "Pin code successfully setup"
+msgstr "Le code d'accès est accepté"
+
+msgid "Code accepted"
+msgstr "Le code est accepté"
+
+msgid "Invalid Code !"
+msgstr "Le code est faux!"
+
+msgid "Please enter pin code first"
+msgstr "Entré d'abord le code"
+
+msgid "Recording protected, enter pin code first"
+msgstr "Entrée le code de protection"
+
+msgid "channel is protected"
+msgstr "Chaînes protégée"
+
+msgid "broadcast is protected"
+msgstr "Emission protégée"
+
+msgid "is protected"
+msgstr "est protégé"
+
+msgid "Pin code"
+msgstr ""
+
+msgid "Skip protected channel silent"
+msgstr "Les chaînes protégés seront ignorées sans infos"
+
+msgid "Hide protected menus"
+msgstr "Menu protégés sont invisibles"
+
+msgid "Hide protected plugins"
+msgstr "Plugins protégés sont invisibles"
+
+msgid "Hide protected recordings"
+msgstr "Enregistrements protégés sont invisibles"
+
+msgid "Open menu after pin request"
+msgstr "Ouvrir le menu après la rentré de la cléed"
+
+msgid "Pin inactivity time [min]"
+msgstr "Protection après une inactivitées de [min]"
+
+msgid "Autoprotection of recordings"
+msgstr "Protection automatique des enregistrement"
+
+msgid "Log Level [0-5]"
+msgstr ""
+
+msgid "Ignoring invalid pin"
+msgstr "Le code est fau"

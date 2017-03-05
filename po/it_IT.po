@@ -1,0 +1,172 @@
+# VDR plugin language source file.
+# Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
+# This file is distributed under the same license as the VDR package.
+# Alberto Carraro <bertocar@tin.it>, 2001
+# Antonio Ospite <ospite@studenti.unina.it>, 2003
+# Sean Carlos <seanc@libero.it>, 2005
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VDR 1.5.7\n"
+"Report-Msgid-Bugs-To: <see README>\n"
+"POT-Creation-Date: 2013-05-22 11:28+0200\n"
+"PO-Revision-Date: 2013-05-22 10:37+0200\n"
+"Last-Translator: Sean Carlos <seanc@libero.it>\n"
+"Language-Team: <vdr@linuxtv.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Setup"
+msgstr ""
+
+msgid "Add current channel to protection list"
+msgstr "Aggiungi canale attuale all'elenco protezione"
+
+msgid "Add current broadcast to protection list"
+msgstr "Aggiungi trasmissione attuale all'elenco protezione"
+
+msgid "Edit channel locks"
+msgstr "Modifica protezioni canale"
+
+msgid "Edit broadcast locks"
+msgstr "Modifica protezioni trasmissione"
+
+msgid "Edit plugin locks"
+msgstr "Modifica protezioni plugin"
+
+msgid "Edit menu locks"
+msgstr "Modifica protezioni menu"
+
+msgid "Unlock setup"
+msgstr "Sblocca impostazioni"
+
+msgid "Lock setup"
+msgstr "Blocca impostazioni"
+
+msgid "Activate childlock"
+msgstr "Attiva filtro famiglia"
+
+msgid "Activated pin protection"
+msgstr "Attivato filtro famiglia"
+
+msgid "Please setup a pin code first!"
+msgstr "Per favore imposta prima un codice Pin"
+
+msgid "Protected channels"
+msgstr "Canali protetti"
+
+msgid "Protected broadcasts"
+msgstr "Trasmissioni protette"
+
+msgid "Plugin protections"
+msgstr "Plugin di protezione"
+
+msgid "Menu protections"
+msgstr "Protezioni menu"
+
+msgid "locked"
+msgstr "protetto"
+
+msgid "unlocked"
+msgstr "sprotetto"
+
+msgid "already in list"
+msgstr "già nell'elenco"
+
+msgid "added to protection list"
+msgstr "aggiunto all'elenco protezione"
+
+msgid "Edit"
+msgstr "Modifica"
+
+msgid "On/Off"
+msgstr "Attivo/Disattivo"
+
+msgid "Add"
+msgstr "Aggiungi"
+
+msgid "Delete"
+msgstr "Elimina"
+
+msgid "Remove entry?"
+msgstr "Rimuovere valore?"
+
+msgid "Name"
+msgstr ""
+
+msgid "Lock active"
+msgstr "Protezione attiva"
+
+msgid "Keyword"
+msgstr "Parola chiave"
+
+msgid "Search mode"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "Setup your pin code: "
+msgstr "Imposta il codice pin:"
+
+msgid "Pin Code: "
+msgstr "Codice Pin"
+
+msgid "Pin code successfully setup"
+msgstr "Codice pin impostato con successo"
+
+msgid "Code accepted"
+msgstr "Codice accettato"
+
+msgid "Invalid Code !"
+msgstr "Codice non valido !"
+
+msgid "Please enter pin code first"
+msgstr "Per favore inserisci prima un codice Pin"
+
+msgid "Recording protected, enter pin code first"
+msgstr "Registrazione protetta, inserisci prima il codice pin"
+
+msgid "channel is protected"
+msgstr "Canale protetto"
+
+msgid "broadcast is protected"
+msgstr "Trasmissione protetta"
+
+msgid "is protected"
+msgstr "è protetta"
+
+msgid "Pin code"
+msgstr ""
+
+msgid "Skip protected channel silent"
+msgstr "Salta i canali protetti in modo silenzioso"
+
+msgid "Hide protected menus"
+msgstr "Nascondi menu protetti"
+
+msgid "Hide protected plugins"
+msgstr "Nascondi plugin protetti"
+
+msgid "Hide protected recordings"
+msgstr "Nascondi registrazioni protette"
+
+msgid "Open menu after pin request"
+msgstr "Apri menu dopo richiesta Pin"
+
+msgid "Pin inactivity time [min]"
+msgstr "Tempo inattività Pin [min]"
+
+msgid "Autoprotection of recordings"
+msgstr "Protezione automatica registrazioni"
+
+msgid "Log Level [0-5]"
+msgstr ""
+
+msgid "Ignoring invalid pin"
+msgstr "Ignora pin non valido"

@@ -1,0 +1,170 @@
+# VDR plugin language source file.
+# Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
+# This file is distributed under the same license as the VDR package.
+# Vyacheslav Dikonov <sdiconov@mail.ru>, 2004
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VDR 1.5.7\n"
+"Report-Msgid-Bugs-To: <see README>\n"
+"POT-Creation-Date: 2013-05-22 11:28+0200\n"
+"PO-Revision-Date: 2013-05-22 10:37+0200\n"
+"Last-Translator: Vyacheslav Dikonov <sdiconov@mail.ru>\n"
+"Language-Team: <vdr@linuxtv.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-5\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Setup"
+msgstr ""
+
+msgid "Add current channel to protection list"
+msgstr "Добавить текущий канал в блок.  список"
+
+msgid "Add current broadcast to protection list"
+msgstr "Добавить текущую радиопередачу в блок. список"
+
+msgid "Edit channel locks"
+msgstr "Редактировать блокировку канала"
+
+msgid "Edit broadcast locks"
+msgstr "Редактировать блокировку радиопередачи"
+
+msgid "Edit plugin locks"
+msgstr ""
+
+msgid "Edit menu locks"
+msgstr ""
+
+msgid "Unlock setup"
+msgstr ""
+
+msgid "Lock setup"
+msgstr ""
+
+msgid "Activate childlock"
+msgstr "Активировать блокировку"
+
+msgid "Activated pin protection"
+msgstr "Активировать блокировку"
+
+msgid "Please setup a pin code first!"
+msgstr ""
+
+msgid "Protected channels"
+msgstr "Заблокированные каналы"
+
+msgid "Protected broadcasts"
+msgstr "Заблокированные радиопередачи"
+
+msgid "Plugin protections"
+msgstr ""
+
+msgid "Menu protections"
+msgstr ""
+
+msgid "locked"
+msgstr ""
+
+msgid "unlocked"
+msgstr ""
+
+msgid "already in list"
+msgstr "уже в списке"
+
+msgid "added to protection list"
+msgstr "добавлено в список блокировки"
+
+msgid "Edit"
+msgstr "Редактировать"
+
+msgid "On/Off"
+msgstr ""
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Remove entry?"
+msgstr "канал?"
+
+msgid "Name"
+msgstr ""
+
+msgid "Lock active"
+msgstr "Блокировка активна"
+
+msgid "Keyword"
+msgstr ""
+
+msgid "Search mode"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "Setup your pin code: "
+msgstr ""
+
+msgid "Pin Code: "
+msgstr "Пин код"
+
+msgid "Pin code successfully setup"
+msgstr ""
+
+msgid "Code accepted"
+msgstr ""
+
+msgid "Invalid Code !"
+msgstr ""
+
+msgid "Please enter pin code first"
+msgstr ""
+
+msgid "Recording protected, enter pin code first"
+msgstr "Пожалуйста введите сначала пин код"
+
+msgid "channel is protected"
+msgstr "канал заблокирован"
+
+msgid "broadcast is protected"
+msgstr "радиопередача заблокирована"
+
+msgid "is protected"
+msgstr ""
+
+msgid "Pin code"
+msgstr ""
+
+msgid "Skip protected channel silent"
+msgstr "Пропустить защищенный канал тихо"
+
+msgid "Hide protected menus"
+msgstr ""
+
+msgid "Hide protected plugins"
+msgstr ""
+
+msgid "Hide protected recordings"
+msgstr ""
+
+msgid "Open menu after pin request"
+msgstr ""
+
+msgid "Pin inactivity time [min]"
+msgstr "Таймер неактивности пин [минут]"
+
+msgid "Autoprotection of recordings"
+msgstr ""
+
+msgid "Log Level [0-5]"
+msgstr ""
+
+msgid "Ignoring invalid pin"
+msgstr "Игнорировать неверный пин"

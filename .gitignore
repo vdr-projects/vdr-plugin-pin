@@ -1,0 +1,8 @@
+.dependencies
+po/*~
+po/*.mo
+po/*.pot
+*.so
+*.o
+*~
+fskcheck

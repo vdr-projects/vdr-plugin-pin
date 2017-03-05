@@ -1,0 +1,170 @@
+# VDR plugin language source file.
+# Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
+# This file is distributed under the same license as the VDR package.
+# Klaus Schmidinger <kls@cadsoft.de>, 2000
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VDR 1.5.7\n"
+"Report-Msgid-Bugs-To: <see README>\n"
+"POT-Creation-Date: 2013-05-22 11:28+0200\n"
+"PO-Revision-Date: 2013-05-22 10:37+0200\n"
+"Last-Translator: Klaus Schmidinger <kls@cadsoft.de>\n"
+"Language-Team: <vdr@linuxtv.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Setup"
+msgstr ""
+
+msgid "Add current channel to protection list"
+msgstr "Aktuellen Kanal sperren"
+
+msgid "Add current broadcast to protection list"
+msgstr "Aktuelle Sendung sperren"
+
+msgid "Edit channel locks"
+msgstr "Gesperrte Kanäle bearbeiten"
+
+msgid "Edit broadcast locks"
+msgstr "Gesperrte Sendungen bearbeiten"
+
+msgid "Edit plugin locks"
+msgstr "Systemeinstellungen bearbeiten"
+
+msgid "Edit menu locks"
+msgstr "Menüsperren bearbeiten"
+
+msgid "Unlock setup"
+msgstr "Setup entsperren"
+
+msgid "Lock setup"
+msgstr "Setup sperren"
+
+msgid "Activate childlock"
+msgstr "Kindersicherung aktivieren"
+
+msgid "Activated pin protection"
+msgstr "Kindersicherung aktiviert"
+
+msgid "Please setup a pin code first!"
+msgstr "Bitte konfigurieren zuerst einen Pin Code!"
+
+msgid "Protected channels"
+msgstr "Gesperrte Kanäle"
+
+msgid "Protected broadcasts"
+msgstr "Gesperrte Sendungen"
+
+msgid "Plugin protections"
+msgstr "Sperren / Entsperren"
+
+msgid "Menu protections"
+msgstr "Menü sperren"
+
+msgid "locked"
+msgstr "gesperrt"
+
+msgid "unlocked"
+msgstr "entsperrt"
+
+msgid "already in list"
+msgstr "bereits in der Liste"
+
+msgid "added to protection list"
+msgstr "hinzugefügt"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "On/Off"
+msgstr "An/Aus"
+
+msgid "Add"
+msgstr "Hinzufügen"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Remove entry?"
+msgstr "Eintrag entfernen?"
+
+msgid "Name"
+msgstr ""
+
+msgid "Lock active"
+msgstr "Sperre aktiv"
+
+msgid "Keyword"
+msgstr "Suchbegriff"
+
+msgid "Search mode"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "Setup your pin code: "
+msgstr "Bitte Pin Code festlegen: "
+
+msgid "Pin Code: "
+msgstr "Pin Eingabe: "
+
+msgid "Pin code successfully setup"
+msgstr "Pin Code erfolgreich festgelegt."
+
+msgid "Code accepted"
+msgstr "Eingabe angenommen"
+
+msgid "Invalid Code !"
+msgstr "Falsche Eingabe !"
+
+msgid "Please enter pin code first"
+msgstr "Bitte zuerst Pin Code eingeben"
+
+msgid "Recording protected, enter pin code first"
+msgstr "Aufnahme gesperrt, bitte Kindersicherung freischalten"
+
+msgid "channel is protected"
+msgstr "Kanal gesperrt"
+
+msgid "broadcast is protected"
+msgstr "Sendung gesperrt"
+
+msgid "is protected"
+msgstr "ist gesperrt"
+
+msgid "Pin code"
+msgstr ""
+
+msgid "Skip protected channel silent"
+msgstr "Gesperrte Kanäle ohne Meldung überspringen"
+
+msgid "Hide protected menus"
+msgstr "Gesperrte Menüs verstecken"
+
+msgid "Hide protected plugins"
+msgstr "Gesperrte Plugins verstecken"
+
+msgid "Hide protected recordings"
+msgstr "Gesperrte Aufnahmen verstecken"
+
+msgid "Open menu after pin request"
+msgstr "Menü nach Eingabe des Pin öffnen"
+
+msgid "Pin inactivity time [min]"
+msgstr "Sperre aktivieren nach Inaktivität [min]"
+
+msgid "Autoprotection of recordings"
+msgstr "Automatischer Schutz der Aufnahmen"
+
+msgid "Log Level [0-5]"
+msgstr ""
+
+msgid "Ignoring invalid pin"
+msgstr "Ungültiger code"
