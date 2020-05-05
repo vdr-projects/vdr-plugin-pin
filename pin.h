@@ -3,7 +3,7 @@
  *
  * See the README file for copyright information and how to reach the author.
  *
- * File: pin.h 
+ * File: pin.h
  *
  */
 
@@ -25,7 +25,7 @@
 // Constants
 //***************************************************************************
 
-static const char *VERSION        = "0.1.16";
+static const char *VERSION        = "0.1.17";
 static const char *DESCRIPTION    = "Childlock plugin";
 static const char *MAINMENUENTRY  = tr("Childlock");
 
@@ -79,7 +79,7 @@ class Translations : public cList<PinService::Translation>, PinService
 class MessageReceiver : public cThread
 {
    public:
- 
+
       MessageReceiver();
       ~MessageReceiver();
 
@@ -102,7 +102,7 @@ class MessageReceiver : public cThread
 // Pin Status Monitor
 //***************************************************************************
 
-class cPinStatusMonitor : public cStatus 
+class cPinStatusMonitor : public cStatus
 {
    protected:
 
@@ -110,9 +110,9 @@ class cPinStatusMonitor : public cStatus
 
       virtual void ChannelSwitch(const cDevice *Device, int ChannelNumber, bool LiveView);
       virtual bool ChannelProtected(const cDevice *Device, const cChannel* Channel);
-      virtual bool ReplayProtected(const cRecording* Recording, const char* Name, 
+      virtual bool ReplayProtected(const cRecording* Recording, const char* Name,
                                    const char* Base, bool isDirectory, int menuView = false);
-      virtual void RecordingFile(const char* FileName);     
+      virtual void RecordingFile(const char* FileName);
       virtual void TimerCreation(cTimer* Timer, const cEvent *Event);
       virtual bool PluginProtected(cPlugin* Plugin, int menuView = false);
       virtual bool MenuItemProtected(const char* Name, int menuView = false);
@@ -161,11 +161,11 @@ class cPin : public cOsdObject, public PinService
 class cPinPlugin : public cPlugin, public PinService
 {
   public:
-      
+
       enum AutoProtectionMode
       {
          apmUnknown = na,
-         
+
          apmAlways,
          apmIntelligent,
          apmNever,

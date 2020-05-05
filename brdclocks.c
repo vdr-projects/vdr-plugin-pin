@@ -38,7 +38,7 @@ cLockedBroadcast::~cLockedBroadcast()
 // Parse
 //***************************************************************************
 
-bool cLockedBroadcast::Parse(char* line) 
+bool cLockedBroadcast::Parse(char* line)
 {
    int fields;
 
@@ -47,7 +47,7 @@ bool cLockedBroadcast::Parse(char* line)
    char* aSearchMode = 0;
    char* aActive = 0;
 
-   fields = sscanf(line, "%a[^:]:%a[^:]:%a[^:]:%a[^\n]", 
+   fields = sscanf(line, "%m[^:]:%m[^:]:%m[^:]:%m[^\n]",
                    &aName, &aPattern, &aSearchMode, &aActive);
 
    if (fields == 4)
@@ -60,16 +60,17 @@ bool cLockedBroadcast::Parse(char* line)
 
       for (int i = 0; i < smCount; i++)
       {
-         if (strcmp(searchModes[i], aSearchMode) == 0)
+         if (aSearchMode && strcmp(searchModes[i], aSearchMode) == 0)
          {
             searchMode = i;
             break;
          }
       }
 
-      active = strcmp(aActive, "yes") == 0;
+      if (aActive)
+         active = strcmp(aActive, "yes") == 0;
    }
-   
+
    if (aSearchMode) free(aSearchMode);
    if (aActive) free(aActive);
 
@@ -84,7 +85,7 @@ bool cLockedBroadcast::Save(FILE* file)
 {
    // Format: "<name>:<pattern>:<searchMode>:<active>"
 
-   return fprintf(file, "%s:%s:%s:%s\n", 
+   return fprintf(file, "%s:%s:%s:%s\n",
                   name,
                   pattern,
                   searchModes[searchMode],
@@ -120,6 +121,6 @@ int cLockedBroadcasts::Locked(const char* aName, long /*startTime*/)
          if (broadcast->Locked())
             return yes;
    }
-   
+
    return no;
 }

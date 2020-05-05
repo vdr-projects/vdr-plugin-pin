@@ -5,6 +5,7 @@
  * build  version  date       comment
  *
 
+ * #42    0.1.17   05.05.20,  change: fixed compile (patch by Alexander Grothe)
  * #41    0.1.16   01.11.15,  added:  fixed backward compatibility
  * #40    0.1.15   09.10.15,  added:  ported to vdr 2.3.1
  * #39    0.1.14   22.05.13,  added:  patch for vdr 2.0.2
@@ -15,16 +16,16 @@
  * #35    0.1.10   20.07.08,  added:  italian translations (thanks to Gringo)
  * #34    0.1.9    19.05.07,  added:  setup option for log-level
                                       More frensh translations from pat, thanks!
-                                      'no translation found' message now appear 
-                                      only once for each text 
+                                      'no translation found' message now appear
+                                      only once for each text
                                       (added internal cache for menu item translations)
- * #33    0.1.8    12.02.07,  added:  Autofill of list with menu-entry 
+ * #33    0.1.8    12.02.07,  added:  Autofill of list with menu-entry
  * #32    0.1.7    31.01.07,  added:  Hiding protected plugins.
                               bugfix: Fixed problem with hotkey handling in pin menu
                               added:  Protection of menu entries.
                                       Hiding protected menu entries.
                                       New search mode 'start with'.
-                                      Extended search modes (exact, regular expression, includes, start with) 
+                                      Extended search modes (exact, regular expression, includes, start with)
                                         now available for all items (channels, plugins, menuitems).
                                       Hiding protected items now configuable.
                                       added patch for epgsearch 0.9.20
@@ -33,11 +34,11 @@
  * #29    0.1.5b   12.01.07,  bugfix: Fixed error message when closing setup.
                                       Fixed translation in timer menue, thanks to Marc (zulu)
                               added:  Patch for vdr 1.4.5
-                              change: Patch for epgsearch changed 
+                              change: Patch for epgsearch changed
  * #28    0.1.5a   07.01.07,  change: pin in setup dialog now hidden again.
- * #27    0.1.5    06.01.07,  bugfix: Fixed protection leak when replaying via 
+ * #27    0.1.5    06.01.07,  bugfix: Fixed protection leak when replaying via
                                       the 'Play' key, reported by Christian Reiser.
-                              change: Edit of timers fsk setting only protected if the 
+                              change: Edit of timers fsk setting only protected if the
                                       timer 'not' already locked
  * #26    0.1.4    23.11.06,  added:  Frensh translations from pat, thanks!
  * #25    0.1.3    23.11.06,  change: Pin input dialog now calls status class
@@ -48,7 +49,7 @@
                               change: many namings and translations
                               bugfix: fixed handling of daylightsavingtime.
                               change: ask for inital pincode setup when entering menue
-                              added:  EXCLUDEPLUGINS to makefile, here can defined which 
+                              added:  EXCLUDEPLUGINS to makefile, here can defined which
                                       plugins can't protected
                               added:  setup-plugin lock to pin menu (for fast and easy access)
                               added:  button blue now toggle protection in list
@@ -58,11 +59,11 @@
                               bugfix: Fixed translation bug in patch (Danke Frank!)
                               bugfix: Take care of daylightsavingtime.
                               added:  Changed patch due to epgsearch plugin requirements.
- * #22    0.1.0    09.09.06,  change: No protection until a pin code was configured 
+ * #22    0.1.0    09.09.06,  change: No protection until a pin code was configured
                                       (requested by Andreas Ritter)
-                              change: Enter pin menu directly if pin was 
+                              change: Enter pin menu directly if pin was
                                       accepted (configurable) (requested by Andreas Ritter)
-                              added:  Translation of script messages by 
+                              added:  Translation of script messages by
                                       plugin (as far as found in translation list)
                                       Frensh translations from pat, thanks!
                               bugix:  Fixed calculation of 'inactivity' time
@@ -74,18 +75,18 @@
  * #18    0.0.18   04.05.06,  change: Code redesign, pooled similar classes, ..
  *                            added:  Paragraph-Sign to mark activated locks in pin menu lists
  * #17    0.0.17   04.05.06,  added:  plugin protection
- *                            bugfix: fixed problem with recording subdirectories 
+ *                            bugfix: fixed problem with recording subdirectories
  *                                    (bug was reported by Viking, thanks!)
  * #16    0.0.16   01.05.06,  bugfix: fixed permissions ot system message queues.
  *                            added:  num keys navigation for pin menu
- *                            added:  Missing translation for 'Recording 
+ *                            added:  Missing translation for 'Recording
  *                                    protected, enter pin code first'.
  *                                    All this detected and reported by Michael Nausch, many thanks!
  * #15    0.0.15   29.04.06,  added:  french translations (thanks to Pat!)
  *                            change: Makefile due to VDR's new APIVERSION feature
  * #14    0.0.14   08.04.06,  added:  protection feature for scripting
  * #13    0.0.13   26.03.06,  bugfix: autoProtectionMode now respect start time
- *                                    of event (needed since channels not 
+ *                                    of event (needed since channels not
  *                                    protected every time)
  * #12    0.0.12   20.03.06,  change: now using aux field in timer config patch
  *                            bugfix: autoProtectionMode will now restored from config
@@ -95,7 +96,7 @@
  * #11    0.0.11   26.02.06,  bugfix: create missing config directory at startup.
  *                            bugfix: keys 1-5 in pin menu now working.
  *                            added:  hungary translations (thanks to Albert Papp!)
- *                            change: silend skip of channels works now again 
+ *                            change: silend skip of channels works now again
  *                                    (fixed problems due to changes of VDR 1.3.40)
  * #10    0.0.10   28.01.06,  added:  regular expressions for brodcasts locks.
  *                            added:  russian translations (appropriated by Monchenko Vladimir, thanks!)
@@ -127,4 +128,3 @@
  * - broadcast locks via event description and/or epg text
  *
  * ---------------------------------------------------------------------
-

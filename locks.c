@@ -124,7 +124,7 @@ void cLockItem::SetTitle(const char* aTitle)
 
 bool cLockItem::Parse(char* line) 
 {
-   int fields;
+   int fields = 0;
 
    char* aName = 0;
    char* aActive = 0;
@@ -141,7 +141,8 @@ bool cLockItem::Parse(char* line)
    {
       if (name) free(name);
       name = aName;
-      active = strcmp(aActive, "yes") == 0;
+      if (aActive)
+         active = strcmp(aActive, "yes") == 0;
       start = DT::hhmm2Int(aStart);
       end = DT::hhmm2Int(aEnd);
    }
