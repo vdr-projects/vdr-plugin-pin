@@ -17,7 +17,7 @@
 // Statics
 //***************************************************************************
 
-const char* cLockItem::searchModes[] = 
+const char* cLockItem::searchModes[] =
 {
    "regular expression",
    "includes",
@@ -71,13 +71,13 @@ cLockItem::~cLockItem()
 //***************************************************************************
 
 void cLockItem::SetName(const char* aName)
-{ 
+{
    int res;
 
-   if (!aName) 
+   if (!aName)
       return;
 
-   if (name) 
+   if (name)
       free(name);
 
    res = asprintf(&name, "%s", aName);
@@ -89,10 +89,10 @@ void cLockItem::SetName(const char* aName)
 //***************************************************************************
 
 void cLockItem::SetPattern(const char* aPattern)
-{ 
+{
    int res;
 
-   if (pattern) 
+   if (pattern)
       free(pattern);
 
    res = asprintf(&pattern, "%s", aPattern);
@@ -104,13 +104,13 @@ void cLockItem::SetPattern(const char* aPattern)
 //***************************************************************************
 
 void cLockItem::SetTitle(const char* aTitle)
-{ 
+{
    int res;
 
-   if (!aTitle) 
+   if (!aTitle)
       return;
 
-   if (title) 
+   if (title)
       free(title);
 
    res = asprintf(&title, "%s", aTitle);
@@ -122,7 +122,7 @@ void cLockItem::SetTitle(const char* aTitle)
 // Parse
 //***************************************************************************
 
-bool cLockItem::Parse(char* line) 
+bool cLockItem::Parse(char* line)
 {
    int fields = 0;
 
@@ -133,9 +133,8 @@ bool cLockItem::Parse(char* line)
    char* aPattern = 0;
    char* aSearchMode = 0;
 
-   fields = sscanf(line, "%a[^:]:%a[^:]:%a[^:]:%a[^:]:%a[^:]:%a[^\n]", 
-                   &aName, &aActive, &aStart, &aEnd, 
-                   &aPattern, &aSearchMode);
+   fields = sscanf(line, "%m[^:]:%m[^:]:%m[^:]:%m[^:]:%m[^:]:%m[^\n]",
+                    &aName, &aActive, &aStart, &aEnd, &aPattern, &aSearchMode);
 
    if (fields >= 4)
    {
@@ -166,7 +165,7 @@ bool cLockItem::Parse(char* line)
       SetPattern(name);
       searchMode = smExact;
    }
-   
+
    if (aActive) free(aActive);
    if (aStart)  free(aStart);
    if (aEnd)    free(aEnd);
@@ -189,9 +188,9 @@ bool cLockItem::Save(FILE* file)
 
    // Format: "<name>:<active>:<start>:<end>:<pattern>:<searchMode>"
 
-   return fprintf(file, "%s:%s:%s:%s:%s:%s\n", 
-                  name, 
-                  active ? "yes" : "no", 
+   return fprintf(file, "%s:%s:%s:%s:%s:%s\n",
+                  name,
+                  active ? "yes" : "no",
                   aStart, aEnd, pattern,
                   searchModes[searchMode]) > 0;
 }
@@ -219,7 +218,7 @@ int cLockItem::Locked(long startTime)
 
    if (sec >= start && sec <= end && active)
       return yes;
-   
+
    return no;
 }
 
