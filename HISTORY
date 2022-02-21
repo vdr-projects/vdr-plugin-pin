@@ -5,6 +5,7 @@
  * build  version  date       comment
  *
 
+ * #43    0.1.18   21.02.21,  change: compiler porting
  * #42    0.1.17   05.05.20,  change: fixed compile (patch by Alexander Grothe)
  * #41    0.1.16   01.11.15,  added:  fixed backward compatibility
  * #40    0.1.15   09.10.15,  added:  ported to vdr 2.3.1

@@ -24,7 +24,7 @@
 //***************************************************************************
 
 class cLockItem : public cListObject
-{     
+{
    public:
 
       enum SearchMode
@@ -38,11 +38,11 @@ class cLockItem : public cListObject
 
          smCount
       };
-   
+
       cLockItem(int aActive = no);
       cLockItem(const char* aName, int aActive = yes, const char* aTitle = 0);
       virtual ~cLockItem();
-      
+
       // interface
 
       virtual bool Parse(char* line);
@@ -53,7 +53,7 @@ class cLockItem : public cListObject
       virtual int Locked(long startTime = 0);
       bool MatchPattern(const char* aName);
       bool HasName(const char* aName);
-      
+
       // gettings
 
       int GetActive()                  { return active; }
@@ -83,7 +83,7 @@ class cLockItem : public cListObject
       static const char* searchModes[smCount+1];
 
    protected:
-   
+
       char* name;
       char* title;
       long start;         // in seconds
@@ -99,7 +99,7 @@ class cLockItem : public cListObject
 //***************************************************************************
 
 class cLockedBroadcast : public cLockItem
-{     
+{
    public:
 
       cLockedBroadcast();
@@ -136,18 +136,18 @@ template<class T> class cLockList : public cConfig<T>
 
          if (!aName)
             return 0;
-   
+
          for (item = (T*)this->First(); item; item = (T*)this->Next(item))
          {
             if (item->HasName(aName))
                return item;
          }
-   
+
          return 0;
       }
 
    protected:
-      
+
       int listType;
 };
 
@@ -173,10 +173,9 @@ class cLockedBroadcasts : public cLockList<cLockedBroadcast>
    public:
 
       cLockedBroadcasts(int aType = na) : cLockList<cLockedBroadcast>::cLockList(aType) {}
-   
+
       virtual int Locked(const char* aName, long startTime = 0);
 };
 
 //***************************************************************************
 #endif // VDR_PIN_LOCKS_H
-

@@ -17,12 +17,12 @@ class PinSetupMenu : public cMenuSetupPage
 {
 
    public:
-      
+
       PinSetupMenu();
       ~PinSetupMenu();
-      
+
    protected:
-      
+
       void Store(void);
 
       // data

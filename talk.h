@@ -51,7 +51,7 @@ class Talk
          evtAnswer,        // = 5
          evtExit           // = 6
       };
-      
+
       struct Header
       {
          long sender;
@@ -74,11 +74,11 @@ class Talk
 
       int isOpen()               { return opened; }
       long getTimeout()          { return timeout; }
-      int getEvent()             { return event; } 
-      long getFrom()             { return from; } 
+      int getEvent()             { return event; }
+      long getFrom()             { return from; }
       const char* getMessage()   { return message; }
 
-      void setTimeout(long t)    { timeout = t; } 
+      void setTimeout(long t)    { timeout = t; }
 
    protected:
 

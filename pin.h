@@ -25,7 +25,7 @@
 // Constants
 //***************************************************************************
 
-static const char *VERSION        = "0.1.17";
+static const char *VERSION        = "0.1.18";
 static const char *DESCRIPTION    = "Childlock plugin";
 static const char *MAINMENUENTRY  = tr("Childlock");
 

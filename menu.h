@@ -24,7 +24,7 @@
 class cPinMenuItem : public cOsdItem
 {
    public:
-   
+
       cPinMenuItem(const char* title, int osState);
 };
 
@@ -48,12 +48,12 @@ class cPinMenu : public cOsdMenu, public PinService
          miEditMenuItemList,
          miProtectSetup
       };
-   
-      cPinMenu(const char* title, cLockItems* theChannels, 
+
+      cPinMenu(const char* title, cLockItems* theChannels,
                cLockedBroadcasts* theBroadcasts, cLockItems* thePlugins,
                cLockItems* theMenuItems);
       virtual ~cPinMenu();
-      
+
       virtual eOSState ProcessKey(eKeys key);
 
       int addCurrentChannel();
@@ -74,9 +74,9 @@ class cPinMenu : public cOsdMenu, public PinService
 
 class cLockMenuItem : public cOsdItem
 {
-      
+
    public:
-   
+
       cLockMenuItem(cLockItem* aItem);
        virtual ~cLockMenuItem();
 
@@ -96,10 +96,10 @@ class cLockMenuItem : public cOsdItem
 class cLockMenu : public cOsdMenu, public PinService
 {
    public:
- 
+
       cLockMenu(const char* title, cLockItems* theItems, ListType theType);
       virtual ~cLockMenu();
-      
+
       eOSState ProcessKey(eKeys key);
 
    protected:
